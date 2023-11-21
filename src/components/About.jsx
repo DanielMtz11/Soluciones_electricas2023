@@ -1,16 +1,17 @@
 import React from "react";
-import "./About.css"
+import BottonImg from './ButomImg';
+import "./About.css";
 
 const About = ()=>{
-
     return(
-
-        <section className="fond">
-    <div className="contenido_fond">
-            <h2>Instalaciones Electricas Residenciales e Industriales</h2>
-        
+    <section className="fond">
+        <div className="contenido_fond">
+                <h2>Servicios de ingeniería para instalaciones  recidenciales y comerciales</h2>
         </div> 
-    </section>       
+
+        <BottonImg/>
+
+    </section>     
     )
 
 }

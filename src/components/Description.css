@@ -1,0 +1,46 @@
+.Description_container{
+    text-align:justify;
+    line-height:30px;
+    padding: 15px 135px 46px;
+    /* padding-bottom: 46px; */
+    background-color: #fac81a;
+}
+
+.Description_container >p{
+    color: rgb(15, 15, 15);
+    margin-bottom: 25px;
+    font-size: 23px;
+    font-weight:500;
+    font-family: 'Poppins', sans-serif;
+/* font-family: 'Roboto Mono', monospace; */
+}
+
+/* .Description_container >span{
+} */
+
+@media (max-width:767px) {
+    
+    .Description_container{
+        text-align:left;
+        padding: 10px 60px 16px;
+    }
+
+    .Description_container >p{
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+    
+    .Description_container{
+        padding: 10px 100px 16px;
+    }
+
+    .Description_container >p{
+        font-size: 21px;
+    }
+
+
+
+}
