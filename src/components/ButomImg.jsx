@@ -1,6 +1,5 @@
 import React from 'react';
-import './About.css';
-
+import "../styles/About.css"
 const BottonImg =()=>{
   return(
     <div className="divider_Btm">

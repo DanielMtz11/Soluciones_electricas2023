@@ -1,9 +1,10 @@
 .Description_container{
+    /* position: relative; */
     text-align:justify;
     line-height:30px;
-    padding: 15px 135px 46px;
-    /* padding-bottom: 46px; */
+    padding: 15px 165px 46px;
     background-color: #fac81a;
+    z-index: 1;
 }
 
 .Description_container >p{
@@ -12,11 +13,8 @@
     font-size: 23px;
     font-weight:500;
     font-family: 'Poppins', sans-serif;
-/* font-family: 'Roboto Mono', monospace; */
 }
 
-/* .Description_container >span{
-} */
 
 @media (max-width:767px) {
     
@@ -40,7 +38,5 @@
     .Description_container >p{
         font-size: 21px;
     }
-
-
 
 }

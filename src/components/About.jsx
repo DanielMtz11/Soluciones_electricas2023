@@ -1,6 +1,7 @@
 import React from "react";
 import BottonImg from './ButomImg';
-import "./About.css";
+
+// import '../styles/About.css';
 
 const About = ()=>{
     return(

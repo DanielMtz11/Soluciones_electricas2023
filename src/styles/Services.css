@@ -1,0 +1,37 @@
+.container_services{
+
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: #e7e5e5;
+        width: 100%;
+
+
+}
+
+.container_title{
+        width: 80%;
+}
+.title{
+
+
+    
+}
+
+
+.services {
+    margin: 0px 60px;
+    background-color: #fac81a;
+    border-radius: 20px 20px 20px 20px;
+    overflow: hidden;
+    box-shadow: 0px 64px 40px -24px rgba(0,0,0,0.5);
+}
+
+.services_content{
+        margin: 30px;
+
+        color: rgb(15, 15, 15);
+        /* margin-bottom: 25px; */
+        font-size: 20px;
+        /* font-weight: 500; */
+        font-family: 'Poppins', sans-serif;
+    }

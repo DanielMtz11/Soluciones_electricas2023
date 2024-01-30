@@ -8,7 +8,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
+    position: fixed;
     top: 0;
     -webkit-box-shadow: 1px -24px 93px 7px rgba(33,33,32,1);
     -moz-box-shadow: 1px -24px 93px 7px rgba(33,33,32,1);

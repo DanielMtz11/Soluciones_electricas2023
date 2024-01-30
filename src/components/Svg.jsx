@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import "./Svg.css"
+import "../styles/Svg.css";
 
 const BackgroundContainer = styled.div`
   position: fixed;

@@ -7,6 +7,7 @@ const Container = styled.div`
  flex-direction: column;
  align-items: center;
  justify-content: center;
+ padding-top: 100px
 `;
 const CarouselImg = styled.img`
 max-width: 500px;

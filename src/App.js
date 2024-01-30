@@ -4,7 +4,8 @@ import About from './components/About';
 import Carousel from './components/Carousel';
 // import AnimatedBackground from './components/Svg';
 import Description from './components/Description';
-
+import Banner from './components/Banner';
+import Services from './components/Services';
 function App() {
   
   return (
@@ -12,7 +13,11 @@ function App() {
           <Nav/>
           <About/>
           <Description/>
-          <Carousel showBtns={false}/>
+          <Banner/>
+          <Services/>
+          <Carousel showBtns={true}/>
+
+          
     </div>
   );
 }
